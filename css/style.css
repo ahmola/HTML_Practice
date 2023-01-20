@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-position: 0% 200%;
+    background-image: url("../image/background_trip.webp");
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+}
+
+.logo{
+    margin: 10px 0 0 15px;
+    color: white;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.menu ul {
+    margin: 20px 20px 0 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 30px;
+    list-style-type: none;
+}
+
+.menu ul a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+
+.search__box{
+    width: 430px;
+    display: inline-block;
+    background-color: white;
+    padding: 20px 30px;
+    position: relative;
+    top: 80px;
+    left: 170px;
+    border-radius: 6px;
+    box-shadow: 0 2px 2px 0 rgb(214, 214, 214);
+}
+
+.search__title{
+    padding: 10px 0;
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(75, 75, 75);
+}
+
+table{
+    width: 100%;
+}
+
+.search__sub__title{
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.search__input{
+    height: 45px;
+    width: 100%;
+    color: rgb(100, 100, 100);
+    font-size: 15px;
+    border: 1px solid rgb(230, 230, 230);
+}
+
+.search__button{
+    display: grid;
+    justify-content: end;
+}
+
+.search__button button{
+    background-color: rgb(235, 92, 88);
+    color: white;
+    width: 70px;
+    height: 45px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 6px;
+    border: 0;
+    cursor: pointer;
+}
